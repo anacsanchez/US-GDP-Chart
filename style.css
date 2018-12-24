@@ -1,8 +1,5 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 #tooltip {
@@ -13,7 +10,13 @@ body {
   border-radius: .4em;
   width: 5em;
   text-align: center;
+}
 
+#bar-chart {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 #title {
@@ -32,5 +35,8 @@ body {
 }
 
 .tick {
-  font-size: 1.25em;
+  font-size: 1.5em;
+}
+rect {
+  cursor: pointer;
 }
